@@ -1,0 +1,58 @@
+html, body { 
+	background-color: black;
+	width: 100%; 
+	padding-top: 2em;
+}
+form {
+	width: 75%;
+	max-width: 40em;
+	height: 75%;
+	background-color: white;
+	margin: 0 auto;
+	padding: 3em;
+}
+
+input, textarea {
+	width: 100%;
+	height: 2em;
+	font-size: 1.3em;
+	border-left: .25em solid black;
+}
+textarea {
+	height: 10em;
+}
+button {
+	transition: background-color .5s ease;
+	display: block;
+	background-color: black;
+	color: white;
+	width: 9em;
+	height: 4em;
+	border: none;
+	font-size: 1.5em;
+	margin-top: .3em;
+}
+button:hover {
+		background-color: #88C470;
+	}
+
+.errorText {
+	display: none;
+	color: red;
+}
+#success {
+	display: none;
+	background-color: white;
+	text-align: center;
+	width: 70%;
+	height: 6em;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+
+
+
+
+
+

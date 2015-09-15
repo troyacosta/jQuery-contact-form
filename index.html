@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.sass.css">
+</head>
+<body>
+	<form>
+		<h1>Contact Us</h1>
+		<h2>Name</h2>
+		<input id="nameInput" type="text" placeholder="Sally Smith">
+		<h2 class="errorText" id="nameError">Name cannot be left empty</h2>
+		<h2>Email</h2>
+		<input id="emailInput" type="text" placeholder="ssmith@gmail.com">
+		<h2 class="errorText" id="emailError">Email must contain an '@'</h2>
+		<h2>Website</h2>
+		<input id="websiteInput" input type="website" placeholder="http://mssmith.net">
+		<h2 class="errorText" id="websiteError">Website must start with http://</h2>
+		<h2>Message</h2>
+		<textarea id="textareaInput" placeholder="A friendly message..."></textarea>
+		<h2 class="errorText" id="textareaError">Message cannot be left blank</h2>
+		<button id="buttonInput" type="submit">Submit</button>
+	</form>
+	<div id="success">
+	</div>
+	
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
